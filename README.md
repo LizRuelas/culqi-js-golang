@@ -10,7 +10,7 @@
 
 
 # CulqiJS v2 - Go
-
+## Version go1.8.1
 
 
 [![Code Climate](https://codeclimate.com/github/culqi/culqi-go/badges/gpa.svg)](https://codeclimate.com/github/culqi/culqi-go)
@@ -23,6 +23,8 @@ Ejemplo de CULQI para el lenguaje Go (golang), pagos simples en tu sitio web. Co
 | Versión actual| Culqi API|
 |----|----|
 | 0.1.0 (09-01-2017) |v2 (ir a referencia)|
+
+
 
 ## Documentación
 
