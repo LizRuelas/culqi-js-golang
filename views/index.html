@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Culqi Test</title>
+    <title>Culqi.JS Go</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="static/css/waitMe.min.css"/>
   </head>
@@ -11,38 +11,36 @@
       <h1>Culqi JS - GO Example</h1>
       <form>
         <div>
-            <label>
-                <span>Correo Electrónico</span>
-                <input type="text"  size="50" data-culqi="card[email]" id="card[email]" />
-            </label>
+          <label>
+            <span>Correo Electrónico</span>
+            <input type="text"  size="50" data-culqi="card[email]" id="card[email]" />
+          </label>
         </div>
         <div>
-            <label>
-                <span>Número de tarjeta</span>
-                <input type="text" size="20" data-culqi="card[number]" id="card[number]" />
-            </label>
+          <label>
+            <span>Número de tarjeta</span>
+            <input type="text" size="20" data-culqi="card[number]" id="card[number]" />
+          </label>
         </div>
         <div>
-            <label>
-                <span>CVV</span>
-                <input type="text" size="4" data-culqi="card[cvv]" id="card[cvv]" />
-            </label>
+          <label>
+            <span>CVV</span>
+            <input type="text" size="4" data-culqi="card[cvv]" id="card[cvv]" />
+          </label>
         </div>
         <div>
-            <label>
-                <span>Fecha expiración (MM/YYYY)</span>
-                <input type="text" size="2" data-culqi="card[exp_month]" id="card[exp_month]" />
-            </label>
-            <span>/</span>
-            <input type="text" size="4" data-culqi="card[exp_year]" id="card[exp_year]"/>
+          <label>
+            <span>Fecha expiración (MM/YYYY)</span>
+            <input type="text" size="2" data-culqi="card[exp_month]" id="card[exp_month]" />
+          </label>
+          <span>/</span>
+          <input type="text" size="4" data-culqi="card[exp_year]" id="card[exp_year]"/>
         </div>
-    </form>
+      </form>
       <a id="miBoton" class="btn btn-primary" href="#" >Pay</a>
-      <br/><br/><br/>
       <div class="panel panel-default" id="response-panel">
         <div class="panel-heading">Response</div>
-        <div class="panel-body" id="response">
-        </div>
+        <div class="panel-body" id="response"></div>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
